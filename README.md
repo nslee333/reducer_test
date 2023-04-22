@@ -1,1 +1,1 @@
-My own counter app to learn useReducer in React.
+Test bench playing with useReducer in react.
