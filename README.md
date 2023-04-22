@@ -1,1 +1,1 @@
-Basic app to learn useReducer in React.
+My own counter app to learn useReducer in React.
