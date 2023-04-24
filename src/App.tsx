@@ -1,5 +1,5 @@
 import './App.css';
-import { useReducer } from 'react';
+import { useReducer, useEffect } from 'react';
 import { reducer } from './reducer';
 
 
@@ -12,6 +12,7 @@ function App() {
       <div>Current Count: {state.count}</div>
       <button onClick={() => dispatch({type: 'incremented_count'})}>increment</button>
       <button onClick={() => dispatch({type: 'decremented_count'})}>decrement</button>
+      <button onClick={() => dispatch({type: 'clear_count'})}>clear</button>
     </div>
   );
 }

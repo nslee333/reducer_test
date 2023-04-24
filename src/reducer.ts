@@ -15,6 +15,10 @@ export function reducer(state: State, action: Action) {
     return {
       count: state.count - 1,
     };
+  } else if (action.type === "clear_count") {
+    return {
+      count: state.count = 0,
+    };
   } else {
     throw Error("Unknown Error.");
   }
